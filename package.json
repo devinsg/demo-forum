@@ -11,7 +11,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "node loader.js",
-    "start": "node app.js",
+    "build": "./nodebb build",
+    "start": "./nodebb build && ./nodebb start",
     "lint": "npx eslint --cache ./nodebb .",
     "pretest": "npm run lint",
     "test": "npx nyc --reporter=html --reporter=text-summary npx mocha",
