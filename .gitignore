@@ -3,7 +3,7 @@ yarn.lock
 npm-debug.log
 node_modules/
 sftp-config.json
-#config.json
+config.json
 jsconfig.json
 public/src/nodebb.min.js
 !src/views/config.json
@@ -21,7 +21,7 @@ feeds/recent.rss
 .eslintcache
 .svn
 
-#logs/
+logs/
 
 pidfile
 
@@ -64,7 +64,7 @@ coverage
 *.log
 test/files/normalise.jpg.png
 test/files/normalise-resized.jpg
-#package-lock.json
-#/package.json
+package-lock.json
+/package.json
 *.mongodb
 link-plugins.sh
