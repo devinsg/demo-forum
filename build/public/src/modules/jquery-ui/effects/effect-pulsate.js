@@ -1,2 +1,0 @@
-(function(e){if(typeof define==="function"&&define.amd){define(["jquery","../version","../effect"],e)}else{e(jQuery)}})(function(e){return e.effects.define("pulsate","show",function(i,n){var t=e(this),f=i.mode,s=f==="show",o=f==="hide",u=s||o,a=(i.times||5)*2+(u?1:0),c=i.duration/a,d=0,r=1,h=t.queue().length;if(s||!t.is(":visible")){t.css("opacity",0).show();d=1}for(;r<a;r++){t.animate({opacity:d},c,i.easing);d=1-d}t.animate({opacity:d},c,i.easing);t.queue(n);e.effects.unshift(t,h,a+1)})});
-//# sourceMappingURL=effect-pulsate.js.map

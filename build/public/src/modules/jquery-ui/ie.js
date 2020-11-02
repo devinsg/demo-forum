@@ -1,2 +1,0 @@
-(function(e){if(typeof define==="function"&&define.amd){define(["jquery","./version"],e)}else{e(jQuery)}})(function(e){return e.ui.ie=!!/msie [\w.]+/.exec(navigator.userAgent.toLowerCase())});
-//# sourceMappingURL=ie.js.map

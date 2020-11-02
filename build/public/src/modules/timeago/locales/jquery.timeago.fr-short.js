@@ -1,2 +1,0 @@
-(function(e){if(typeof define==="function"&&define.amd){define(["jquery"],e)}else if(typeof module==="object"&&typeof module.exports==="object"){e(require("jquery"))}else{e(jQuery)}})(function(e){e.timeago.settings.strings={prefixAgo:"il y a",prefixFromNow:"d'ici",seconds:"moins d'une minute",minute:"une minute",minutes:"%d minutes",hour:"une heure",hours:"%d heures",day:"un jour",days:"%d jours",month:"un mois",months:"%d mois",year:"un an",years:"%d ans"}});
-//# sourceMappingURL=jquery.timeago.fr-short.js.map

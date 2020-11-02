@@ -1,1 +1,0 @@
-../../../../public/src/admin/settings.js

@@ -1,1 +1,0 @@
-../../../../public/src/admin/dashboard.js

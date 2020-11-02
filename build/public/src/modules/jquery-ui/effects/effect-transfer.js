@@ -1,2 +1,0 @@
-(function(e){if(typeof define==="function"&&define.amd){define(["jquery","../version","../effect"],e)}else{e(jQuery)}})(function(e){var f;if(e.uiBackCompat!==false){f=e.effects.define("transfer",function(f,n){e(this).transfer(f,n)})}return f});
-//# sourceMappingURL=effect-transfer.js.map

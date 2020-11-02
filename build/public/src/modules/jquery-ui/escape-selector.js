@@ -1,2 +1,0 @@
-(function(e){if(typeof define==="function"&&define.amd){define(["jquery","./version"],e)}else{e(jQuery)}})(function(e){return e.ui.escapeSelector=function(){var e=/([!"#$%&'()*+,./:;<=>?@[\]^`{|}~])/g;return function(n){return n.replace(e,"\\$1")}}()});
-//# sourceMappingURL=escape-selector.js.map
