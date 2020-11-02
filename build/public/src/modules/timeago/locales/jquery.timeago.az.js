@@ -1,2 +1,0 @@
-(function(e){if(typeof define==="function"&&define.amd){define(["jquery"],e)}else if(typeof module==="object"&&typeof module.exports==="object"){e(require("jquery"))}else{e(jQuery)}})(function(e){e.timeago.settings.strings={prefixAgo:null,prefixFromNow:null,suffixAgo:"əvvəl",suffixFromNow:"sonra",seconds:"saniyələr",minute:"1 dəqiqə",minutes:"%d dəqiqə",hour:"1 saat",hours:"%d saat",day:"1 gün",days:"%d gün",month:"1 ay",months:"%d ay",year:"1 il",years:"%d il",wordSeparator:"",numbers:[]}});
-//# sourceMappingURL=jquery.timeago.az.js.map

@@ -1,2 +1,0 @@
-(function(i){if(typeof define==="function"&&define.amd){define(["jquery","./version"],i)}else{i(jQuery)}})(function(i){return i.fn.extend({uniqueId:function(){var i=0;return function(){return this.each(function(){if(!this.id){this.id="ui-id-"+ ++i}})}}(),removeUniqueId:function(){return this.each(function(){if(/^ui-id-\d+$/.test(this.id)){i(this).removeAttr("id")}})}})});
-//# sourceMappingURL=unique-id.js.map

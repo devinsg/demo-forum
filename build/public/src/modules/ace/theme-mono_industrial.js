@@ -1,1 +1,0 @@
-../../../../../node_modules/ace-builds/src-min/theme-mono_industrial.js

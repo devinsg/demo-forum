@@ -1,2 +1,0 @@
-(function(e){if(typeof define==="function"&&define.amd){define(["jquery","./version"],e)}else{e(jQuery)}})(function(e){return e.fn.form=function(){return typeof this[0].form==="string"?this.closest("form"):e(this[0].form)}});
-//# sourceMappingURL=form.js.map

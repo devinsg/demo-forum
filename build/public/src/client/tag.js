@@ -1,2 +1,0 @@
-"use strict";define("forum/tag",["topicList","forum/infinitescroll"],function(t,i){var o={};o.init=function(){app.enterRoom("tags");t.init("tag",o);function o(t,o,n){i.loadMore("topics.loadMoreFromSet",{set:"tag:"+ajaxify.data.tag+":topics",after:t,direction:o,count:config.topicsPerPage},n)}};return o});
-//# sourceMappingURL=tag.js.map
