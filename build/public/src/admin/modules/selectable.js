@@ -1,0 +1,2 @@
+"use strict";define("admin/modules/selectable",["jquery-ui/widgets/selectable"],function(){var e={};e.enable=function(e,t){$(e).selectable({filter:t})};return e});
+//# sourceMappingURL=selectable.js.map

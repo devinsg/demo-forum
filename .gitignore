@@ -70,4 +70,4 @@ link-plugins.sh
 
 ## Node Environment
 .env
-build/public/*
+#build/public/*

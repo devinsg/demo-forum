@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery"],e)}else if(typeof module==="object"&&typeof module.exports==="object"){e(require("jquery"))}else{e(jQuery)}})(function(e){e.timeago.settings.strings={prefixAgo:null,prefixFromNow:null,suffixAgo:"sitten",suffixFromNow:"tulevaisuudessa",seconds:"alle minuutti",minute:"minuutti",minutes:"%d minuuttia",hour:"tunti",hours:"%d tuntia",day:"päivä",days:"%d päivää",month:"kuukausi",months:"%d kuukautta",year:"vuosi",years:"%d vuotta"}});
+//# sourceMappingURL=jquery.timeago.fi.js.map

@@ -1,0 +1,2 @@
+"use strict";define("forum/account/watched",["forum/account/header","forum/account/topics"],function(t,i){var o={};o.init=function(){t.init();i.handleInfiniteScroll("topics.loadMoreFromSet","account/watched","uid:"+ajaxify.data.theirid+":followed_tids")};return o});
+//# sourceMappingURL=watched.js.map

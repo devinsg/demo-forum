@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery","./version","./focusable"],e)}else{e(jQuery)}})(function(e){return e.extend(e.expr[":"],{tabbable:function(n){var t=e.attr(n,"tabindex"),u=t!=null;return(!u||t>=0)&&e.ui.focusable(n,u)}})});
+//# sourceMappingURL=tabbable.js.map
