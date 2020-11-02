@@ -18,7 +18,7 @@
 */
 
 'use strict';
-
+require('dotenv').config();
 require('./require-main');
 
 const nconf = require('nconf');
@@ -33,6 +33,9 @@ const file = require('./src/file');
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 global.env = process.env.NODE_ENV || 'production';
+
+console.log('- process.env.NODE_ENV:', process.env.NODE_ENV);
+console.log('- process.env.MONGODB_URI:', process.env.MONGODB_URI);
 
 // Alternate configuration file support
 const configFile = path.resolve(__dirname, nconf.any(['config', 'CONFIG']) || 'config.json');
