@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery","./version"],e)}else{e(jQuery)}})(function(e){return e.ui.safeBlur=function(n){if(n&&n.nodeName.toLowerCase()!=="body"){e(n).trigger("blur")}}});
+//# sourceMappingURL=safe-blur.js.map

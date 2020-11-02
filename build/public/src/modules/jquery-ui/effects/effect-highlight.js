@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery","../version","../effect"],e)}else{e(jQuery)}})(function(e){return e.effects.define("highlight","show",function(n,o){var f=e(this),i={backgroundColor:f.css("backgroundColor")};if(n.mode==="hide"){i.opacity=0}e.effects.saveStyle(f);f.css({backgroundImage:"none",backgroundColor:n.color||"#ffff99"}).animate(i,{queue:false,duration:n.duration,easing:n.easing,complete:o})})});
+//# sourceMappingURL=effect-highlight.js.map
