@@ -21,13 +21,12 @@ feeds/recent.rss
 .eslintcache
 .svn
 
-#logs/
+logs/
 
 pidfile
 
 # templates
 /public/templates
-
 /public/uploads
 /test/uploads
 
@@ -57,7 +56,7 @@ pidfile
 tx.exe
 .transifexrc
 
-##Coverage output
+## Coverage output
 coverage
 .nyc_output
 
@@ -68,3 +67,7 @@ test/files/normalise-resized.jpg
 #/package.json
 *.mongodb
 link-plugins.sh
+
+## Node Environment
+.env
+build/public/*

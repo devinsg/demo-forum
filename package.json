@@ -1,17 +1,19 @@
 {
-  "name": "nodebb",
-  "license": "GPL-3.0",
-  "description": "NodeBB Forum",
-  "version": "1.15.0-beta.29",
-  "homepage": "http://www.nodebb.org",
+  "name": "demo-forum",
+  "license": "MIT",
+  "description": "Demo Forum",
+  "version": "1.0.0",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/NodeBB/"
+    "url": "https://github.com/devinsg/demo-forum/"
   },
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "start_loader": "node loader.js",
+    "dev": "node loader.js",
+    "setup": "./nodebb setup",
+    "build": "./nodebb build",
+    "start": "./nodebb build && ./nodebb start",
     "lint": "npx eslint --cache ./nodebb .",
     "pretest": "npm run lint",
     "test": "npx nyc --reporter=html --reporter=text-summary npx mocha",
@@ -67,6 +69,7 @@
     "csurf": "^1.11.0",
     "daemon": "^1.1.0",
     "diff": "^4.0.2",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "express-useragent": "^1.0.13",
@@ -174,7 +177,8 @@
     "url": "https://github.com/NodeBB/NodeBB/issues"
   },
   "engines": {
-    "node": ">=10"
+    "node": "12.15.0",
+    "npm": "6.13.4"
   },
   "maintainers": [
     {

@@ -96,6 +96,22 @@ function loadConfig(configFile) {
 		nconf.set('relative_path', relativePath);
 		nconf.set('port', nconf.get('PORT') || nconf.get('port') || urlObject.port || (nconf.get('PORT_ENV_VAR') ? nconf.get(nconf.get('PORT_ENV_VAR')) : false) || 4567);
 	}
+
+	/*
+	if(nconf.get('secret')) {
+		nconf.set('secret', process.env.SECRET_KEY);
+		console.log('- secret:', nconf.get('secret'));
+	}
+
+	if (nconf.get('mongo')) {
+		var az_mongo = nconf.get('mongo');
+		az_mongo.database = process.env.MONGODB;
+		az_mongo.uri = process.env.MONGODB_URI;
+		
+		nconf.set('mongo', az_mongo);
+		console.log('- mongo:', nconf.get('mongo'));
+	}
+	*/
 }
 
 function versionCheck() {
