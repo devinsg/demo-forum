@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery"],e)}else if(typeof module==="object"&&typeof module.exports==="object"){e(require("jquery"))}else{e(jQuery)}})(function(e){e.timeago.settings.strings={prefixAgo:"pirms",prefixFromNow:null,suffixAgo:null,suffixFromNow:"no šī brīža",seconds:"%d sek.",minute:"min.",minutes:"%d min.",hour:"st.",hours:"%d st.",day:"1 d.",days:"%d d.",month:"mēnesis.",months:"%d mēnesis.",year:"gads",years:"%d gads",wordSeparator:" ",numbers:[]}});
+//# sourceMappingURL=jquery.timeago.lv.js.map
