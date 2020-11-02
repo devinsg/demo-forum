@@ -11,6 +11,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "node loader.js",
+    "setup": "./nodebb setup",
     "build": "./nodebb build",
     "start": "./nodebb build && ./nodebb start",
     "lint": "npx eslint --cache ./nodebb .",
