@@ -1,5 +1,5 @@
 {
-    "url": "http://localhost:3000",
+    "url": "https://demo-forum.azurewebsites.net",
     "secret": "8d3342e6-cf62-44e3-b160-1a96982e39f1",
     "database": "mongo",
     "port": "3000",
