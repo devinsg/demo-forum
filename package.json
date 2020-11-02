@@ -10,7 +10,8 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "node loader.js",
+    "dev": "node loader.js",
+    "start": "node app.js",
     "lint": "npx eslint --cache ./nodebb .",
     "pretest": "npm run lint",
     "test": "npx nyc --reporter=html --reporter=text-summary npx mocha",
