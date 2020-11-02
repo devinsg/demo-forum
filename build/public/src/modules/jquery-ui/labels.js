@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery","./version","./escape-selector"],e)}else{e(jQuery)}})(function(e){return e.fn.labels=function(){var t,i,s,n,a;if(this[0].labels&&this[0].labels.length){return this.pushStack(this[0].labels)}n=this.eq(0).parents("label");s=this.attr("id");if(s){t=this.eq(0).parents().last();a=t.add(t.length?t.siblings():this.siblings());i="label[for='"+e.ui.escapeSelector(s)+"']";n=n.add(a.find(i).addBack(i))}return this.pushStack(n)}});
+//# sourceMappingURL=labels.js.map

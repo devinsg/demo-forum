@@ -1,0 +1,2 @@
+"use strict";define("admin/advanced/cache",function(){var e={};e.init=function(){require(["admin/settings"],function(e){e.prepare()});$("#clear").on("click",function(){socket.emit("admin.cache.clear",function(e){if(e){return app.alertError(e.message)}ajaxify.refresh()})})};return e});
+//# sourceMappingURL=cache.js.map

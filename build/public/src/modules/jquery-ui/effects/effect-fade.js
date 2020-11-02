@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery","../version","../effect"],e)}else{e(jQuery)}})(function(e){return e.effects.define("fade","toggle",function(n,i){var f=n.mode==="show";e(this).css("opacity",f?0:1).animate({opacity:f?1:0},{queue:false,duration:n.duration,easing:n.easing,complete:i})})});
+//# sourceMappingURL=effect-fade.js.map

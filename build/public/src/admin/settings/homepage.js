@@ -1,0 +1,2 @@
+"use strict";define("admin/settings/homepage",["admin/settings"],function(){function e(){if($('[data-field="homePageRoute"]').val()==="custom"){$("#homePageCustom").show()}else{$("#homePageCustom").hide()}}var t={};t.init=function(){$('[data-field="homePageRoute"]').on("change",e);e()};return t});
+//# sourceMappingURL=homepage.js.map

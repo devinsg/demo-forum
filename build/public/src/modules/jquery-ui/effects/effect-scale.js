@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery","../version","../effect","./effect-size"],e)}else{e(jQuery)}})(function(e){return e.effects.define("scale",function(f,t){var i=e(this),n=f.mode,c=parseInt(f.percent,10)||(parseInt(f.percent,10)===0?0:n!=="effect"?0:100),o=e.extend(true,{from:e.effects.scaledDimensions(i),to:e.effects.scaledDimensions(i,c,f.direction||"both"),origin:f.origin||["middle","center"]},f);if(f.fade){o.from.opacity=1;o.to.opacity=0}e.effects.effect.size.call(this,o,t)})});
+//# sourceMappingURL=effect-scale.js.map

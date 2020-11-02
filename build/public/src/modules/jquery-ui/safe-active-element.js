@@ -1,0 +1,2 @@
+(function(e){if(typeof define==="function"&&define.amd){define(["jquery","./version"],e)}else{e(jQuery)}})(function(e){return e.ui.safeActiveElement=function(e){var n;try{n=e.activeElement}catch(i){n=e.body}if(!n){n=e.body}if(!n.nodeName){n=e.body}return n}});
+//# sourceMappingURL=safe-active-element.js.map
