@@ -57,7 +57,7 @@ pidfile
 tx.exe
 .transifexrc
 
-##Coverage output
+## Coverage output
 coverage
 .nyc_output
 
@@ -68,3 +68,6 @@ package-lock.json
 /package.json
 *.mongodb
 link-plugins.sh
+
+## Node Environment
+.env
