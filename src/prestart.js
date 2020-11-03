@@ -105,9 +105,7 @@ function loadConfig(configFile) {
 
 	if (nconf.get('mongo')) {
 		var az_mongo = nconf.get('mongo');
-		az_mongo.database = process.env.MONGODB;
 		az_mongo.uri = process.env.MONGODB_URI;
-		
 		nconf.set('mongo', az_mongo);
 		console.log('- mongo:', nconf.get('mongo'));
 	}
