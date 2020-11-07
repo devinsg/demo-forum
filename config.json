@@ -1,6 +1,6 @@
 {
-    "url": "https://laptrinh365.com",
-    "secret": "8d3342e6-cf62-44e3-b160-1a96982e39f1",
+    "url": "http://localhost:3000",
+    "secret": "f45d5d79-8845-467e-bf7d-d8881e6ea6fe",
     "database": "mongo",
     "port": "3000",
     "mongo": {
@@ -9,6 +9,6 @@
         "username": "",
         "password": "",
         "database": "nodebb",
-        "uri": "mongodb://aznodebb:eXSCCELzl5yV3LC3cICoBXLD5JHzmJm3vNfxKDiwf9Sl7ZVf9tzSLIkdxBZGz98AyxwtqSE07Dmf3vna0GfrVQ==@aznodebb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb"
+        "uri": "mongodb://aznodebb:RJRe8jDOf5SATsw2DNZTGa3VzH2nVHXxPofCYARqsIm9XLRjyKftWCSY05E3zAzsZ195dfgqIbidzD6YyMSLAA==@aznodebb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb"
     }
 }
