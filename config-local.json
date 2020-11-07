@@ -8,7 +8,7 @@
         "port": 27017,
         "username": "",
         "password": "",
-        "database": "nodebb",
-        "uri": "mongodb://aznodebb:eXSCCELzl5yV3LC3cICoBXLD5JHzmJm3vNfxKDiwf9Sl7ZVf9tzSLIkdxBZGz98AyxwtqSE07Dmf3vna0GfrVQ==@aznodebb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb"
+        "database": "",
+        "uri": ""
     }
 }
