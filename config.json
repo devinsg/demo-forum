@@ -2,6 +2,7 @@
     "url": "https://laptrinh365.com",
     "secret": "118fc5cb-220b-4edb-848e-f1c8eefc4b28",
     "database": "mongo",
+    "port": "3000",
     "mongo": {
         "host": "127.0.0.1",
         "port": 27017,
@@ -9,6 +10,5 @@
         "password": "",
         "database": "nodebb",
         "uri": "mongodb://aznodebb:EOlQmJVlBWCeH7y76lkDh7SvLQqYzANTQw4ewJQOPO9PTccorJl3hCwZiZqIpAoAw7Xz0zPDzghclyDTzRvEkg==@aznodebb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb"
-    },
-    "port": "3000"
+    }
 }
